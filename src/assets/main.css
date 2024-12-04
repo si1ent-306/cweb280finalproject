@@ -1,10 +1,25 @@
+/*Header Font*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Jaro:opsz@6..72&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Text Font*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 html{
     background-color: #222222;
     color: #ffffff;
+    font-family: "Jairo", sans-serif;
 }
 h1{
     text-align: center;
     color: darkgreen;
+    font-family: "Bungee Shade", serif;
+    font-size: 60px;
+
 }
 ul#routerlink-list{
     justify-content: center;
@@ -28,3 +43,36 @@ ul#routerlink-list li a{
     padding: 14px 16px;
     text-decoration: none;
 }
+form#login-form{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: #333333 solid 1px;
+}
+form#login-form label{
+    margin: 10px;
+    font-size: 20px;
+}
+form#login-form input{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    box-shadow: none;
+}
+form#login-form button {
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #333333;
+    color: #ffffff;
+    box-shadow: none;
+    padding: 15px;
+    width: 95%;
+    font-size: 18px;
+}
+
+
