@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div class="players">
-    <h1>Players</h1>
-  </div>
+  <h1>Employees</h1>
 </template>
 
 <style scoped>
